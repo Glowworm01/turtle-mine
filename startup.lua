@@ -1,3 +1,4 @@
+-- Auto update and run program
 local args = { ... }
 local programName = 'strip_mine'
 local programCode = '6FtTMN7e'
