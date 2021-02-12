@@ -5,11 +5,10 @@ local fuelLimit = turtle.getFuelLimit()
 local blockBlacklist = {'minecraft:cobblestone', 'minecraft:stone', 'minecraft:dirt', 'minecraft:gravel', 'rustic:slate', 'chisel:basalt2'}
 local fuelList =  {'minecraft:coal', 'minecraft:coal_block', 'minecraft:stick', 'minecraft:planks', 'minecraft:log', 'ic2:coke', 'railcraft:fuel_coke'}
 
-local has_value = function(tab, val) --I stole most of this function from stack overflow blah blah
+local has_value = function(tab, val) --I stole this function
     for index, value in ipairs(tab) do
         return value == val
     end
-
     return false
 end
 
